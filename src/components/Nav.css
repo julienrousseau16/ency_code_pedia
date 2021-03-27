@@ -1,0 +1,16 @@
+.Nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  background-color: rgb(233, 219, 185);
+}
+
+.Nav li {
+  list-style: none;
+}
+
+.Link {
+  text-decoration: none;
+  color: rgb(117, 84, 56);
+}
+
