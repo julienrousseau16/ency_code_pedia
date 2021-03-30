@@ -1,8 +1,8 @@
 import React from 'react'
 import { Switch, Route, NavLink as Link } from 'react-router-dom'
 
-import Arrays from './Functions/Arrays'
-import Strings from './Functions/Strings'
+import Arrays from './Arrays'
+import Strings from './Strings'
 
 import './JsFunctions.css'
 
