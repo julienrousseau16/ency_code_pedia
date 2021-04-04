@@ -3,6 +3,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 import ApiContainer from './components/API/ApiContainer'
+import CssContainer from './components/CSS/CssContainer'
 import Home from './components/Global/Home'
 import JsFunctions from './components/Functions/JsFunctions'
 import Nav from './components/Global/Nav'
@@ -17,6 +18,7 @@ const App = () => {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/apis' component={ApiContainer} />
+        <Route path='/css' component={CssContainer} />
         <Route path='/js_functions' component={JsFunctions} />
       </Switch>
     </div>

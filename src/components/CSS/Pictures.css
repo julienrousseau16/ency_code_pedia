@@ -1,0 +1,8 @@
+.GalleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Pictures h5 {
+  margin: 15px 0 5px 0;
+}
